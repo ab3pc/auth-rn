@@ -17,7 +17,7 @@ const CustomInput = ({ control, name, rules = {}, placeholder, secureTextEntry, 
               name={icon}
               size={20}
               color="#666"
-              style={{ marginRight: 5 }}
+              style={{ marginRight: 5, borderRightWidth: 1, borderColor: "#ccc", width: 16, }}
             />}
             <TextInput
               value={value}
